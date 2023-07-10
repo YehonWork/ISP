@@ -1,13 +1,15 @@
-package media_players;
+package a.media_players;
 
-public class DivMediaPlayer implements MediaPlayer {
+public class VlcMediaPlayer implements MediaPlayer {
     @Override
     public void playAudio() {
         System.out.println(" Playing audio ..........");
+
     }
 
     @Override
     public void playVideo() {
         System.out.println(" Playing video ..........");
+
     }
 }

@@ -1,4 +1,4 @@
-package media_players;
+package a.media_players;
 
 public interface MediaPlayer {
     public void playAudio();
